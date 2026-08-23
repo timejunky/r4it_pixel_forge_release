@@ -1,36 +1,23 @@
-# Pixel Forge — Community releases
+# Pixel Forge — Community
 
-Public **binary-only** release channel for the free Community tier.
+Official **Windows installer** downloads for **Pixel Forge Community** (free tier).
 
-- **Dev SSOT (private):** `timejunky/r4it_pixel_forge` — never push application source here.
-- **This repo:** README only on `main`. Customer downloads are **GitHub Release assets** built from the private dev tree.
+## Download
 
-## What belongs here
+**[Latest release](https://github.com/timejunky/r4it_pixel_forge_release/releases/latest)**
 
-| Allowed on `main` | Allowed on GitHub Releases |
-| --- | --- |
-| This README | `PixelForge-<semver>-Setup.exe` |
-| `.gitignore` | `PixelForge-Community-Setup.exe` (stable latest/download name) |
-| | `PixelForge-<semver>-Setup.exe.sha256.txt` |
+Stable direct link:
 
-## What must never appear here
+`https://github.com/timejunky/r4it_pixel_forge_release/releases/latest/download/PixelForge-Community-Setup.exe`
 
-- Python source, `pyproject.toml`, `requirements*.txt`, `_info` trees
-- ZIP/tar archives of source or PyInstaller onedir folders
-- Payhip secrets, internal marketing, or dev tooling
+Each release includes a matching `.sha256.txt` file — verify the hash before you run the installer.
 
-GitHub auto-generates “Source code (zip/tar.gz)” from **this** repo only. Keeping `main`
-limited to this README ensures those archives contain **no application code**.
+## Product
 
-## Operator publish (from dev machine)
+- Product page: [ready-4-it.com/pixel-forge](https://www.ready-4-it.com/pixel-forge)
+- Community is free on Windows — no license key required.
+- Pro, Trial, and team licenses are delivered through a separate channel (not this repo).
 
-```powershell
-cd F:\r4it\dev\r4it_pixel_forge
-python tools/build_desktop_bundle.py --clean --run-smoke
-python tools/build_windows_installer.py
-python tools/publish_community_release.py --dry-run
-python tools/publish_community_release.py
-python tools/audit_community_release.py
-```
+## About this repository
 
-Pro / Trial builds use **streamingZebra** (`api.streamingzebra.com`), not this repo.
+Release assets here are **compiled installers only**. There is no application source in this repository.
