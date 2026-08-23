@@ -1,0 +1,4 @@
+# Binary-only release repo — no dev tree, no source, no staged installers.
+*
+!.gitignore
+!README.md
