@@ -1,0 +1,14 @@
+{
+  "id": "pixelforge.external.sample_validator_svg",
+  "name": "sample_validator_svg",
+  "version": "0.1.0",
+  "api": 1,
+  "description": "SVG viewBox/script warnings and a passthrough fixer.",
+  "author": { "name": "ready-4-it", "email": "support@ready-4-it.com" },
+  "license": "MIT",
+  "repository": "https://github.com/timejunky/r4it_pixel_forge_release/tree/plugins",
+  "homepage": "https://www.ready-4-it.com/pixel-forge",
+  "provides": ["validators", "fixers"],
+  "entry": "plugin.py",
+  "keywords": ["sample", "pixel-forge"]
+}

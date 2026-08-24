@@ -1,0 +1,14 @@
+{
+  "id": "pixelforge.external.sample_cloud",
+  "name": "sample_cloud",
+  "version": "0.1.0",
+  "api": 1,
+  "description": "Skeleton S3-like storage backend. Host-only: user plugins cannot register storage.",
+  "author": { "name": "ready-4-it", "email": "support@ready-4-it.com" },
+  "license": "MIT",
+  "repository": "https://github.com/timejunky/r4it_pixel_forge_release/tree/plugins",
+  "homepage": "https://www.ready-4-it.com/pixel-forge",
+  "provides": ["storages"],
+  "entry": "plugin.py",
+  "keywords": ["sample", "pixel-forge"]
+}

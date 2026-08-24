@@ -1,0 +1,14 @@
+{
+  "id": "pixelforge.external.sample_batch",
+  "name": "sample_batch",
+  "version": "0.1.0",
+  "api": 1,
+  "description": "Batch orchestration stub. Host-only: user plugins cannot register batches.",
+  "author": { "name": "ready-4-it", "email": "support@ready-4-it.com" },
+  "license": "MIT",
+  "repository": "https://github.com/timejunky/r4it_pixel_forge_release/tree/plugins",
+  "homepage": "https://www.ready-4-it.com/pixel-forge",
+  "provides": ["batches"],
+  "entry": "plugin.py",
+  "keywords": ["sample", "pixel-forge"]
+}

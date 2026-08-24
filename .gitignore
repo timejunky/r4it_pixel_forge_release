@@ -1,0 +1,9 @@
+# Binary-only `main` must never pick up this branch.
+# This tree is sample source only.
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+.DS_Store
+Thumbs.db
