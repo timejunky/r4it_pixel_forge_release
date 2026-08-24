@@ -8,9 +8,9 @@ and [Releases](https://github.com/timejunky/r4it_pixel_forge_release/releases/la
 
 ## Install a sample (Pro)
 
-1. Copy one folder into `%USERPROFILE%\.pixelforge\plugins\<name>\`.
-2. Restart Pixel Forge.
-3. Confirm it under **Help → Plugins…**.
+1. In Pixel Forge Pro open **Help → Plugins…**, fetch the catalog if needed,
+   enable a loadable sample, and **Apply selection**.
+2. Or copy one folder into `%USERPROFILE%\.pixelforge\plugins\<name>\` and restart.
 
 Each sample is a folder with `plugin.json` + Python. The host reads the JSON
 **before** it runs any Python.
@@ -31,6 +31,12 @@ cannot be claimed by user plugins.
 
 These files are still Python. The host limits registration, not the language
 runtime.
+
+## Contributing
+
+This public branch is protected: no force-push, no deletion, changes via pull
+request. CI validates every `plugin.json` before merge. Do not merge `plugins`
+into `main`.
 
 ## Samples that run as user plugins
 
