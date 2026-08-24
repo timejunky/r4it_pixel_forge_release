@@ -1,6 +1,6 @@
 {
   "id": "pixelforge.external.sample_custom_sizes",
-  "name": "sample_custom_sizes",
+  "name": "Sample extra sizes",
   "version": "0.1.0",
   "api": 1,
   "description": "Extra size suggestions from homepage/target context.",

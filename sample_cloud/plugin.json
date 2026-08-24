@@ -1,6 +1,6 @@
 {
   "id": "pixelforge.external.sample_cloud",
-  "name": "sample_cloud",
+  "name": "Sample cloud storage (host-only)",
   "version": "0.1.0",
   "api": 1,
   "description": "Skeleton S3-like storage backend. Host-only: user plugins cannot register storage.",

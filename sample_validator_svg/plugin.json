@@ -1,6 +1,6 @@
 {
   "id": "pixelforge.external.sample_validator_svg",
-  "name": "sample_validator_svg",
+  "name": "Sample SVG validator",
   "version": "0.1.0",
   "api": 1,
   "description": "SVG viewBox/script warnings and a passthrough fixer.",
