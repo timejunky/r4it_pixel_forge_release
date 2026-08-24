@@ -1,6 +1,6 @@
 {
   "id": "pixelforge.external.sample_batch",
-  "name": "sample_batch",
+  "name": "Sample batch job (host-only)",
   "version": "0.1.0",
   "api": 1,
   "description": "Batch orchestration stub. Host-only: user plugins cannot register batches.",

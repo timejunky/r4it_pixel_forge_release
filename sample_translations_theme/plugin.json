@@ -1,6 +1,6 @@
 {
   "id": "pixelforge.external.sample_translations_theme",
-  "name": "sample_translations_theme",
+  "name": "Sample translations & theme",
   "version": "0.1.0",
   "api": 1,
   "description": "i18n overlay plus a Catppuccin-style theme provider.",
